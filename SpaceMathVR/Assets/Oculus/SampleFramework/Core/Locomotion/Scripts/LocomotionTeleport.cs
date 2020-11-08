@@ -8,7 +8,7 @@ language governing permissions and limitations under the license.
 ************************************************************************************/
 
 // Enable DEBUG_TELEPORT_STATES to cause messages to be logged when teleport state changes occur.
-//#define DEBUG_TELEPORT_STATES
+#define DEBUG_TELEPORT_STATES
 
 using System;
 using UnityEngine;
