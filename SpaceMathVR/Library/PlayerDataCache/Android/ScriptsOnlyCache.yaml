@@ -88,6 +88,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
@@ -1642,5 +1644,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Cool Scene.unity
-  playerPath: E:/Unity/space-math-vr/SpaceMathVR/V9 - fixed meshes and changed some
-    room stuff.apk
+  playerPath: E:/Unity/space-math-vr/SpaceMathVR/V11 - modified closet.apk
