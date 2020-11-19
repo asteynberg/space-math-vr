@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Cool Scene.unity
+- path: Assets/Scenes/SimpleRodScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

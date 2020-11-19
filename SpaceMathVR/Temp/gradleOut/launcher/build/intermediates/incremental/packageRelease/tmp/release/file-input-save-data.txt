@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Nov 19 00:45:46 HST 2020
+#Thu Nov 19 06:11:49 HST 2020
 60.set=ASSET
 52.set=ASSET
 53.base=E\:\\Unity\\althea-space-math-vr\\SpaceMathVR\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\mergeJniLibs\\release\\0
@@ -267,7 +267,7 @@
 66.set=ASSET
 58.set=ASSET
 43.baseType=DIRECTORY
-43.path=bin/Data/Managed/UnityEngine.ImageConversionModule.dll
+43.path=bin/Data/Managed/UnityEngine.UNETModule.dll
 16.base=E\:\\Unity\\althea-space-math-vr\\SpaceMathVR\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
 90.path=bin/Data/Managed/UnityEngine.IMGUIModule.dll
 6.path=bin/Data/Managed/System.Drawing.dll
@@ -330,7 +330,7 @@ count=110
 45.baseType=DIRECTORY
 56.set=ASSET
 48.set=ASSET
-42.path=bin/Data/Managed/UnityEngine.UNETModule.dll
+42.path=bin/Data/Managed/UnityEngine.ImageConversionModule.dll
 15.base=E\:\\Unity\\althea-space-math-vr\\SpaceMathVR\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\mergeJniLibs\\release\\0
 5.path=lib/armeabi-v7a/libunity.so
 49.path=lib/armeabi-v7a/libMonoPosixHelper.so
