@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Nov 19 06:35:04 HST 2020
+#Thu Nov 19 10:32:21 HST 2020
 60.set=ASSET
 52.set=ASSET
 53.base=E\:\\Unity\\althea-space-math-vr\\SpaceMathVR\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\mergeJniLibs\\release\\0
@@ -141,7 +141,7 @@
 11.base=E\:\\Unity\\althea-space-math-vr\\SpaceMathVR\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
 1.path=bin/Data/Managed/UnityEngine.ProfilerModule.dll
 45.path=bin/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
-92.path=bin/Data/Managed/System.Runtime.Serialization.Xml.dll
+92.path=bin/Data/Managed/Assembly-CSharp.dll
 76.baseType=DIRECTORY
 8.path=bin/Data/data.unity3d
 36.baseType=DIRECTORY
@@ -207,7 +207,7 @@
 0.path=bin/Data/Managed/UnityEngine.Physics2DModule.dll
 44.path=bin/Data/Managed/UnityEngine.InputModule.dll
 81.baseType=DIRECTORY
-91.path=bin/Data/Managed/Assembly-CSharp.dll
+91.path=bin/Data/Managed/System.Runtime.Serialization.Xml.dll
 41.baseType=DIRECTORY
 7.path=lib/armeabi-v7a/libOVRPlugin.so
 98.path=bin/Data/Managed/UnityEngine.VideoModule.dll

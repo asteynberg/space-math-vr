@@ -13,7 +13,7 @@ public class HandController : MonoBehaviour
     private bool grabbing;
     private float triggerThreshold = 0.2f;
 
-    private List<GameObject> grabbable = new List<GameObject>();
+    private List<GameObject> interactable = new List<GameObject>();
     private List<Transform> turnable = new List<Transform>();
     // List of if the controller is at this Y value, then
     private List<float> turnableZeros = new List<float>();
@@ -40,7 +40,7 @@ public class HandController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (grabbable.Count > 0)
+        if (interactable.Count > 0)
         {
             float trigger = OVRInput.Get(this.button);
             if (grabbing)
@@ -48,10 +48,10 @@ public class HandController : MonoBehaviour
                 if (trigger < triggerThreshold)
                 {
                     // drop the items
-                    foreach (GameObject thing in grabbable)
+                    foreach (GameObject thing in interactable)
                     {
                         Debug.Log("About to try to drop something");
-                        thing.transform.SetParent(thing.GetComponent<Grabbable>().originalParent);
+                        thing.transform.SetParent(thing.GetComponent<Interactable>().originalParent);
                         Debug.Log("Dropped an object!");
                     }
                     // remove all the fixedPosition objects from the list
@@ -64,16 +64,17 @@ public class HandController : MonoBehaviour
                     // we're still holding on to the objects
                     for (int i = 0; i < turnableZeros.Count; i++)
                     {
+                        // do all of the turning
                         Vector3 rotation = turnable[i].transform.eulerAngles;
-                        Debug.Log("Rotation:");
-                        Debug.Log(rotation);
+                        //Debug.Log("Rotation:");
+                        //Debug.Log(rotation);
                         float targetY = gameObject.transform.eulerAngles.y - turnableZeros[i];
-                        Debug.Log("Controller y:");
-                        Debug.Log(gameObject.transform.rotation.y);
-                        Debug.Log("The zero:");
-                        Debug.Log(turnableZeros[i]);
-                        Debug.Log("The result:");
-                        Debug.Log(targetY);
+                        //Debug.Log("Controller y:");
+                        //Debug.Log(gameObject.transform.rotation.y);
+                        //Debug.Log("The zero:");
+                        //Debug.Log(turnableZeros[i]);
+                        //Debug.Log("The result:");
+                        //Debug.Log(targetY);
                         turnable[i].transform.eulerAngles = new Vector3(rotation.x, targetY, rotation.z);
                     }
                 }
@@ -82,21 +83,28 @@ public class HandController : MonoBehaviour
             {
                 if (trigger >= triggerThreshold)
                 {
-                    foreach (GameObject thing in grabbable)
+                    // pick up the objects
+                    foreach (GameObject thing in interactable)
                     {
-                        Grabbable grabbableComponent = thing.GetComponent<Grabbable>();
+                        Interactable interactableComponent = thing.GetComponent<Interactable>();
                         
                         Debug.Log("Picked up an object!");
-                        if (grabbableComponent.turnable)
+                        if (interactableComponent.interactionType == Interactable.InteractionType.turn)
                         {
-                            Debug.Log("Recognized that the object WAS turnable.");
-                            turnable.Add(grabbableComponent.grabbableTarget);
-                            turnableZeros.Add(gameObject.transform.eulerAngles.y - grabbableComponent.grabbableTarget.transform.eulerAngles.y);
+                            Debug.Log("Recognized that the object was turnable.");
+                            turnable.Add(interactableComponent.interactionTarget);
+                            turnableZeros.Add(gameObject.transform.eulerAngles.y - interactableComponent.interactionTarget.transform.eulerAngles.y);
+                        }
+                        else if (interactableComponent.interactionType == Interactable.InteractionType.grab)
+                        {
+                            Debug.Log("Recognized that the object was grabbable");
+                            interactableComponent.interactionTarget.transform.SetParent(gameObject.transform);
                         }
                         else
                         {
-                            Debug.Log("Recognized that the object was not turnable.");
-                            grabbableComponent.grabbableTarget.transform.SetParent(gameObject.transform);
+                            Debug.Log("Decided that the object was clickable");
+                            Debug.Log("Triggered the clickable object");
+                            EventManager.TriggerEvent(interactableComponent.triggerEventName);
                         }
                     }
                     grabbing = true;
@@ -106,7 +114,7 @@ public class HandController : MonoBehaviour
         }
 
 
-        if (grabbable.Count == 0) {
+        if (interactable.Count == 0) {
             // there's nothing to pick up
             gameObject.GetComponent<MeshRenderer>().material = blue;
         } else if (grabbing)
@@ -115,7 +123,7 @@ public class HandController : MonoBehaviour
             gameObject.GetComponent<MeshRenderer>().material = yellow;
         } else
         {
-            // there's stuff to pick up
+            // there's stuff to pick up or click
             gameObject.GetComponent<MeshRenderer>().material = green;
         }
     }
@@ -123,11 +131,11 @@ public class HandController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggered enter!");
-        Grabbable grabbableComponent = other.gameObject.GetComponent<Grabbable>();
-        if (grabbableComponent != null)
+        Interactable interactableComponent = other.gameObject.GetComponent<Interactable>();
+        if (interactableComponent != null)
         {
-            grabbable.Add(other.gameObject);
-            grabbableComponent.originalParent = other.gameObject.transform.parent;
+            interactable.Add(other.gameObject);
+            interactableComponent.originalParent = other.gameObject.transform.parent;
         }
     }
 
@@ -135,6 +143,6 @@ public class HandController : MonoBehaviour
     {
         Debug.Log("Triggered exit!");
         // will just return false if it's not in there
-        grabbable.Remove(other.gameObject);
+        interactable.Remove(other.gameObject);
     }
 }
