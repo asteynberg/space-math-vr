@@ -1,25 +1,21 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - DisplayTriggerValue
+    - DialReader
     - Grabbable
     - HandController
-    - LocomotionTeleport
     - ONSPSettings
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
-    - OVRControllerHelper
-    - OVRDebugInfo
     - OVRHeadsetEmulator
     - OVRManager
-    - OVRPlayerController
-    - OVRSceneSampleController
-    - OVRScreenFade
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TextMeshPro
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -32,8 +28,13 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
   sceneClasses:
-    Assets/Scenes/SimpleRodScene.unity:
+    Assets/Scenes/Cool Scene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -58,10 +59,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
     - Class: 102
       Script: {instanceID: 0}
     - Class: 104
@@ -69,35 +66,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 11396}
+    - Class: 114
+      Script: {instanceID: 11420}
+    - Class: 114
       Script: {instanceID: 11490}
     - Class: 114
       Script: {instanceID: 11642}
     - Class: 114
-      Script: {instanceID: 11860}
-    - Class: 114
-      Script: {instanceID: 12026}
-    - Class: 114
-      Script: {instanceID: 12136}
-    - Class: 114
       Script: {instanceID: 12210}
+    - Class: 114
+      Script: {instanceID: 12320}
     - Class: 114
       Script: {instanceID: 12468}
     - Class: 114
       Script: {instanceID: 12476}
     - Class: 114
-      Script: {instanceID: 12620}
-    - Class: 114
-      Script: {instanceID: 12746}
-    - Class: 114
       Script: {instanceID: 12902}
-    - Class: 114
-      Script: {instanceID: 13354}
     - Class: 114
       Script: {instanceID: 13764}
     - Class: 114
       Script: {instanceID: 13840}
     - Class: 114
-      Script: {instanceID: 14130}
+      Script: {instanceID: 14080}
+    - Class: 114
+      Script: {instanceID: 14264}
+    - Class: 114
+      Script: {instanceID: 22982}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -106,13 +101,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
-    - Class: 143
-      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1645,7 +1646,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: dc3e60bbae57dad8a0d3638550928ee8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DialReader
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SimpleRodScene.unity
-  playerPath: E:/Unity/space-math-vr/SpaceMathVR/V17 - testing dial - almost there.apk
+  - Assets/Scenes/Cool Scene.unity
+  playerPath: E:/Unity/space-math-vr/SpaceMathVR/V18 - testing dial display.apk
