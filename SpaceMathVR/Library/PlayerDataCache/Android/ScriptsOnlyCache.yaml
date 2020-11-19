@@ -1,26 +1,18 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - DisplayTriggerValue
-    - FakeParent
-    - Grabbable
-    - HandController
-    - LocomotionTeleport
     - ONSPSettings
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
-    - OVRControllerHelper
-    - OVRDebugInfo
     - OVRHeadsetEmulator
     - OVRManager
-    - OVRPlayerController
-    - OVRSceneSampleController
-    - OVRScreenFade
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TextMeshPro
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -33,8 +25,13 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Cool Scene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -53,15 +50,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 95
       Script: {instanceID: 0}
     - Class: 102
       Script: {instanceID: 0}
@@ -70,52 +61,46 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11500}
+      Script: {instanceID: 11400}
     - Class: 114
-      Script: {instanceID: 11654}
+      Script: {instanceID: 11482}
     - Class: 114
-      Script: {instanceID: 11876}
+      Script: {instanceID: 11558}
     - Class: 114
-      Script: {instanceID: 12048}
+      Script: {instanceID: 11714}
     - Class: 114
-      Script: {instanceID: 12162}
+      Script: {instanceID: 12296}
     - Class: 114
-      Script: {instanceID: 12236}
+      Script: {instanceID: 12410}
     - Class: 114
-      Script: {instanceID: 12502}
+      Script: {instanceID: 12562}
     - Class: 114
-      Script: {instanceID: 12660}
+      Script: {instanceID: 13886}
     - Class: 114
-      Script: {instanceID: 12788}
+      Script: {instanceID: 13964}
     - Class: 114
-      Script: {instanceID: 13400}
+      Script: {instanceID: 14212}
     - Class: 114
-      Script: {instanceID: 13820}
-    - Class: 114
-      Script: {instanceID: 13898}
-    - Class: 114
-      Script: {instanceID: 14196}
-    - Class: 114
-      Script: {instanceID: 19224}
-    - Class: 114
-      Script: {instanceID: 36122}
-    - Class: 114
-      Script: {instanceID: 37868}
+      Script: {instanceID: 14400}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
-    - Class: 143
-      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -168,22 +153,10 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: bf5cb87c773ea378a3f5ac036aab367b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SocialPlatformManager
-  - hash:
-      serializedVersion: 2
       Hash: c42672c997f8be6b1aa86a927ebea785
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
-  - hash:
-      serializedVersion: 2
-      Hash: 329a4358a2c40fe3c40f44951200bd91
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarBody
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -234,12 +207,6 @@ ScriptsOnlyBuild:
     className: OVRGazePointer
   - hash:
       serializedVersion: 2
-      Hash: ee064a1c4ba1f660af1c5b892fd2512c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -276,6 +243,12 @@ ScriptsOnlyBuild:
     className: ArmModel
   - hash:
       serializedVersion: 2
+      Hash: 20240431c815058690a3ba9bdfb91802
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LookCamera
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -294,12 +267,6 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: 8e0f3ec8d75fb8795524bfa69489fa95
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarTextureCopyManager
-  - hash:
-      serializedVersion: 2
       Hash: bc85ffeddf1ca0db77ce0cd8273f284f
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.EntitlementCheck
@@ -310,12 +277,6 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRManager
-  - hash:
-      serializedVersion: 2
-      Hash: 8b9f42d72019bde2f9fe0667762eaff3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarRenderComponent
   - hash:
       serializedVersion: 2
       Hash: b2c49db11310c73f73ac8c392fbc5715
@@ -456,12 +417,6 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: d29554da4f32756eaad6ec0d568c5648
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarSDKManager
-  - hash:
-      serializedVersion: 2
       Hash: e7dac3c9100823d6e750582bb7d6b5f8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -480,22 +435,10 @@ ScriptsOnlyBuild:
     className: OVRProfiler
   - hash:
       serializedVersion: 2
-      Hash: 329a4358a2c40fe3c40f44951200bd91
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarBase
-  - hash:
-      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 025866bb53162ac1e71a1b207ceca793
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarLocalDriver
   - hash:
       serializedVersion: 2
       Hash: e5ba90f531fe4c602fc732d95c1eded6
@@ -618,12 +561,6 @@ ScriptsOnlyBuild:
     className: ONSPSettings
   - hash:
       serializedVersion: 2
-      Hash: 1f74ed43dcd4b6debc2d1978f9f32eba
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GazeTarget
-  - hash:
-      serializedVersion: 2
       Hash: c62775f7279ea30b4981a8322d28585a
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.SimplePlatformSample
@@ -634,12 +571,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ONSPAudioSource
-  - hash:
-      serializedVersion: 2
-      Hash: 4810b3707d5fd5dc0d4e93afb64fcd4b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarSettings
   - hash:
       serializedVersion: 2
       Hash: 5777c70a25f193ad387a5581565b81b9
@@ -756,16 +687,16 @@ ScriptsOnlyBuild:
     className: RayTool
   - hash:
       serializedVersion: 2
-      Hash: 329a4358a2c40fe3c40f44951200bd91
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarComponent
-  - hash:
-      serializedVersion: 2
       Hash: a8c61f120a248e691d195a82070bb1fb
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRHeadsetEmulator
+  - hash:
+      serializedVersion: 2
+      Hash: b2cc395c4e52ec3716789c95fca45afc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -780,12 +711,6 @@ ScriptsOnlyBuild:
     className: TeleportOrientationHandlerThumbstick
   - hash:
       serializedVersion: 2
-      Hash: 025866bb53162ac1e71a1b207ceca793
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarTestDriver
-  - hash:
-      serializedVersion: 2
       Hash: 0be4c5c10ae412b122a47f0f79c6f324
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -796,12 +721,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeleportTargetHandlerPhysical
-  - hash:
-      serializedVersion: 2
-      Hash: 0498232dd48b097128db9129acff161b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarTouchController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -838,12 +757,6 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRDebugInfo
-  - hash:
-      serializedVersion: 2
-      Hash: 8b9f42d72019bde2f9fe0667762eaff3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarSkinnedMeshRenderPBSComponent
   - hash:
       serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
@@ -1014,6 +927,12 @@ ScriptsOnlyBuild:
     className: OVRLipSyncContextMorphTarget
   - hash:
       serializedVersion: 2
+      Hash: 1ec53b6ae1ea0d82e0747c44e3f089f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Grabbable
+  - hash:
+      serializedVersion: 2
       Hash: 157538f8f4891e8727c599fd613d7108
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1176,12 +1095,6 @@ ScriptsOnlyBuild:
     className: AmbienceEmitter
   - hash:
       serializedVersion: 2
-      Hash: bf8312e5e419f0f7299da40aabf2d600
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RemoteLoopbackManager
-  - hash:
-      serializedVersion: 2
       Hash: 8e592b2e954c9a9874358cee7ca5fe87
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -1266,18 +1179,6 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: ddb88151c19644f8893fc50abf00c917
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatar
-  - hash:
-      serializedVersion: 2
-      Hash: 025866bb53162ac1e71a1b207ceca793
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarRemoteDriver
-  - hash:
-      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1327,18 +1228,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarSettingsEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 8302a05adec609c4b10f8b6cc3443e4c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PoseEditHelper
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
     className: Camera2DController
@@ -1362,16 +1251,16 @@ ScriptsOnlyBuild:
     className: TeleportTransitionInstant
   - hash:
       serializedVersion: 2
+      Hash: f9a3fa795fdc45b44f33cc2a28c5a2ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SkyboxChanger
+  - hash:
+      serializedVersion: 2
       Hash: 57f180a5003248da76cab9f40f315b05
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DebugUIBuilder
-  - hash:
-      serializedVersion: 2
-      Hash: a6ded2673e2fb033edf3bf8af9c7c7dc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarMaterialManager
   - hash:
       serializedVersion: 2
       Hash: 505a6714ae02fdc2e1ba29de535a4cc5
@@ -1408,12 +1297,6 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
     className: MatchController
-  - hash:
-      serializedVersion: 2
-      Hash: 4ca6f90afe62fc92d15b7d34228515d1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GazeTargetSpawner
   - hash:
       serializedVersion: 2
       Hash: f8438efc679de058330bd3e038df1378
@@ -1462,12 +1345,6 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.Editor.dll
     namespaceName: 
     className: OVRConfig
-  - hash:
-      serializedVersion: 2
-      Hash: 8b9f42d72019bde2f9fe0667762eaff3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarSkinnedMeshRenderComponent
   - hash:
       serializedVersion: 2
       Hash: 57bbc7ecf7a22767c1b9015689b1da78
@@ -1528,12 +1405,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ONSPPropagationGeometry
-  - hash:
-      serializedVersion: 2
-      Hash: 0498232dd48b097128db9129acff161b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OvrAvatarHand
   - hash:
       serializedVersion: 2
       Hash: 393c59b202b0e7b6b9fee142f9310de1
@@ -1606,6 +1477,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LaserPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FakeParent
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1762,25 +1639,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: b2cc395c4e52ec3716789c95fca45afc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HandController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FakeParent
-  - hash:
-      serializedVersion: 2
-      Hash: 1ec53b6ae1ea0d82e0747c44e3f089f6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Grabbable
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: E:/Unity/space-math-vr/SpaceMathVR/Attempt8 - new grabbing system.apk
+  - Assets/Scenes/Cool Scene.unity
+  playerPath: E:/Unity/space-math-vr/SpaceMathVR/V9 - fixed meshes and changed some
+    room stuff.apk
