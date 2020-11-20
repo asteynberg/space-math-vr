@@ -7,7 +7,6 @@ ScriptsOnlyBuild:
     - HandController
     - Interactable
     - ONSPSettings
-    - TestEventSystem
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
@@ -1659,7 +1658,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: dc3e60bbae57dad8a0d3638550928ee8
+      Hash: 5ba74fd119db666de8020d9f27869dcd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DialReader
@@ -1674,20 +1673,14 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: TestEventSystem
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
     className: EventManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: b7f14b019de67e36a991e7ce7818e815
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GeneratePoleOnClick
   platform: 13
   scenePathNames:
   - Assets/Scenes/Cool Scene.unity
-  playerPath: E:/Unity/space-math-vr/SpaceMathVR/V19 - testing pole creation trigger.apk
+  playerPath: E:/Unity/space-math-vr/SpaceMathVR/V22 - demoable.apk
