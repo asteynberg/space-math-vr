@@ -4,7 +4,8 @@ ScriptsOnlyBuild:
     - DialReader
     - EventManager
     - GeneratePoleOnClick
-    - HandController
+    - GrabManager
+    - Grabber
     - Interactable
     - ONSPSettings
     Oculus.VR.Editor.dll:
@@ -80,29 +81,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12210}
     - Class: 114
-      Script: {instanceID: 12320}
+      Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12468}
+      Script: {instanceID: 12322}
     - Class: 114
-      Script: {instanceID: 12476}
+      Script: {instanceID: 12470}
     - Class: 114
-      Script: {instanceID: 13764}
+      Script: {instanceID: 12688}
     - Class: 114
-      Script: {instanceID: 13840}
+      Script: {instanceID: 13414}
     - Class: 114
-      Script: {instanceID: 14080}
+      Script: {instanceID: 13770}
     - Class: 114
-      Script: {instanceID: 14264}
+      Script: {instanceID: 13846}
     - Class: 114
-      Script: {instanceID: 22982}
+      Script: {instanceID: 13872}
     - Class: 114
-      Script: {instanceID: 26568}
+      Script: {instanceID: 14088}
     - Class: 114
-      Script: {instanceID: 26646}
+      Script: {instanceID: 14272}
     - Class: 114
-      Script: {instanceID: 26650}
+      Script: {instanceID: 19848}
     - Class: 114
-      Script: {instanceID: 26654}
+      Script: {instanceID: 19858}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -596,6 +597,12 @@ ScriptsOnlyBuild:
     className: ONSPAudioSource
   - hash:
       serializedVersion: 2
+      Hash: 5ba74fd119db666de8020d9f27869dcd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DialReader
+  - hash:
+      serializedVersion: 2
       Hash: 5777c70a25f193ad387a5581565b81b9
     assemblyName: Assembly-CSharp.dll
     namespaceName: OVR
@@ -716,12 +723,6 @@ ScriptsOnlyBuild:
     className: OVRHeadsetEmulator
   - hash:
       serializedVersion: 2
-      Hash: b2cc395c4e52ec3716789c95fca45afc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HandController
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -810,6 +811,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b7f14b019de67e36a991e7ce7818e815
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GeneratePoleOnClick
   - hash:
       serializedVersion: 2
       Hash: 9edf0788742c31d8eaaf32cf4feac747
@@ -1250,6 +1257,12 @@ ScriptsOnlyBuild:
     className: PlatformManager
   - hash:
       serializedVersion: 2
+      Hash: 22964d2e06ddc05d428bbe3265d47baa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Interactable
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
@@ -1410,6 +1423,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EventManager
   - hash:
       serializedVersion: 2
       Hash: 893dbdbfe611d62e230a686ea89f1efd
@@ -1658,29 +1677,17 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 5ba74fd119db666de8020d9f27869dcd
+      Hash: c8e75431462b33a54fe3403f0992229a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: DialReader
+    className: GrabManager
   - hash:
       serializedVersion: 2
-      Hash: 22964d2e06ddc05d428bbe3265d47baa
+      Hash: 18639bba37f8554c838e983ebc13f39c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Interactable
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EventManager
-  - hash:
-      serializedVersion: 2
-      Hash: b7f14b019de67e36a991e7ce7818e815
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GeneratePoleOnClick
+    className: Grabber
   platform: 13
   scenePathNames:
   - Assets/Scenes/Cool Scene.unity
-  playerPath: E:/Unity/space-math-vr/SpaceMathVR/V22 - demoable.apk
+  playerPath: E:/Unity/space-math-vr/SpaceMathVR/V23 - testing rotation bug fix.apk

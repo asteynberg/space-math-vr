@@ -129,7 +129,7 @@ public class GrabManager : MonoBehaviour
                 {
                     Debug.Log("Recognized that the object was turnable.");
                     grabInfo.turning.Add(thing);
-                    grabInfo.turningZeros.Add(gameObject.transform.eulerAngles.y - thing.interactionTarget.transform.eulerAngles.y);
+                    grabInfo.turningZeros.Add(grabbers[grabberNumber].transform.eulerAngles.y - thing.interactionTarget.transform.eulerAngles.y);
                 }
                 else
                 {

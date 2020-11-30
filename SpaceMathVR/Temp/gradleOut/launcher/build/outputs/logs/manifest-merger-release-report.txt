@@ -1,0 +1,212 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+MERGED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:3:1-91:12
+MERGED from [:OVRPlugin:] C:\Users\London\.gradle\caches\transforms-2\files-2.1\abbc7186ac82fe00e7fdf15757e9fc1c\AndroidManifest.xml:2:1-9:12
+INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+	package
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:70-110
+		INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+		INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:111-157
+	android:versionCode
+		INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+		INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:11-69
+	android:installLocation
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:158-188
+supports-screens
+ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:3-163
+	android:largeScreens
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:78-105
+	android:smallScreens
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:21-48
+	android:normalScreens
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:49-77
+	android:xlargeScreens
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:106-134
+	android:anyDensity
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:135-160
+application
+ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:3-83
+MERGED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:5-89:19
+MERGED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:5-89:19
+	android:label
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:16-48
+	android:allowBackup
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:9-36
+	android:icon
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:49-80
+	android:networkSecurityConfig
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:9-64
+uses-sdk
+INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:10:5-12:41
+MERGED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:10:5-12:41
+MERGED from [:OVRPlugin:] C:\Users\London\.gradle\caches\transforms-2\files-2.1\abbc7186ac82fe00e7fdf15757e9fc1c\AndroidManifest.xml:7:5-47
+MERGED from [:OVRPlugin:] C:\Users\London\.gradle\caches\transforms-2\files-2.1\abbc7186ac82fe00e7fdf15757e9fc1c\AndroidManifest.xml:7:5-47
+INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		MERGED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		INJECTED from E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:19-51
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-77
+uses-permission#android.permission.BLUETOOTH
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:22-65
+uses-feature#android.hardware.microphone
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-23:36
+	android:required
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-33
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-51
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-32:36
+	android:required
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-33
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-72
+uses-feature#android.hardware.vr.headtracking
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:5-36:31
+	android:version
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-28
+	android:required
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:9-32
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-56
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:9-66:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-50
+	android:launchMode
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-48
+	android:configChanges
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-114
+	android:theme
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-77
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.INFO+category:name:com.oculus.intent.category.VR
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-55:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:17-69
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:25-66
+category#com.oculus.intent.category.VR
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:17-74
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:27-71
+category#android.intent.category.INFO
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-73
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:27-70
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-59:40
+	android:value
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:17-37
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-62:40
+	android:value
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:17-37
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:17-53
+meta-data#com.oculus.vr.focusaware
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-65:40
+	android:value
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:17-37
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:17-56
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:9-70:33
+	android:value
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-30
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:9-73:36
+	android:value
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-33
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-47
+meta-data#notch.config
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:9-76:50
+	android:value
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-47
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-40
+meta-data#unity.build-id
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:9-79:68
+	android:value
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-65
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-42
+meta-data#com.samsung.android.vr.application.mode
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:9-82:39
+	android:value
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:82:13-36
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:13-67
+meta-data#com.unity.xr.oculus.LowOverheadMode
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:83:9-85:37
+	android:value
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:85:13-34
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:84:13-63
+meta-data#com.oculus.supportedDevices
+ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:86:9-88:44
+	android:value
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:88:13-41
+	android:name
+		ADDED from [:unityLibrary] E:\Unity\althea-space-math-vr\SpaceMathVR\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:87:13-55
