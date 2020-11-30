@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class EventManager : MonoBehaviour
 {
-    public enum EventName {none, makePoleButtonClicked};
+    public enum EventName {none, makePoleButtonClicked, victory};
 
     private Dictionary<EventName, UnityEvent> eventDictionary;
 

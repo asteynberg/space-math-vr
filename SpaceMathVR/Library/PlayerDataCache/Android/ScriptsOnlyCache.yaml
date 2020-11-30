@@ -8,6 +8,8 @@ ScriptsOnlyBuild:
     - Grabber
     - Interactable
     - ONSPSettings
+    - Pole
+    - TriggerVictory
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
@@ -33,6 +35,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
@@ -99,11 +102,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14088}
     - Class: 114
+      Script: {instanceID: 14202}
+    - Class: 114
       Script: {instanceID: 14272}
     - Class: 114
       Script: {instanceID: 19848}
     - Class: 114
       Script: {instanceID: 19858}
+    - Class: 114
+      Script: {instanceID: 36736}
+    - Class: 114
+      Script: {instanceID: 44148}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -813,7 +822,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: b7f14b019de67e36a991e7ce7818e815
+      Hash: 794094cf782139b37c2a29bfaca67bdc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GeneratePoleOnClick
@@ -1687,7 +1696,19 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Grabber
+  - hash:
+      serializedVersion: 2
+      Hash: 7e911a3019b1cd451c4fc5c08a42bbcd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Pole
+  - hash:
+      serializedVersion: 2
+      Hash: 6fd8808eb26fd37ef426a07a328fd74a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TriggerVictory
   platform: 13
   scenePathNames:
   - Assets/Scenes/Cool Scene.unity
-  playerPath: E:/Unity/space-math-vr/SpaceMathVR/V23 - testing rotation bug fix.apk
+  playerPath: E:/Unity/space-math-vr/SpaceMathVR/V24 - testing victory.apk

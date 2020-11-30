@@ -5,18 +5,21 @@ using UnityEngine.Events;
 
 public class GeneratePoleOnClick : MonoBehaviour
 {
-    public const string makePoleButtonClickEventName = "pole_button_click";
     private UnityAction clickListener;
     public DialReader poleDialReader;
-    public Material poleColor;
-    public Transform poleSpawn;
-    [HideInInspector]
-    public GameObject pole = null;
+    public Pole pole;
 
     void Awake()
     {
         clickListener = new UnityAction(createPole);
     }
+
+    void Start()
+    {
+        MeshRenderer meshRenderer = pole.GetComponent<MeshRenderer>() as MeshRenderer;
+        meshRenderer.enabled = false;
+    }
+
     void OnEnable()
     {
         EventManager.StartListening(EventManager.EventName.makePoleButtonClicked, clickListener);
@@ -29,24 +32,13 @@ public class GeneratePoleOnClick : MonoBehaviour
 
     void createPole()
     {
-        if (pole)
-        {
-            // get rid of the old pole
-            Destroy(pole);
-        }
-        // create a new pole
+        // move and resize the pole
         float poleLength = poleDialReader.value * 0.1f - 0.05f;
-        pole = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
-        pole.GetComponent<MeshRenderer>().material = poleColor;
-        pole.transform.SetPositionAndRotation(poleSpawn.position, poleSpawn.rotation);
+        pole.userLength = (int) poleDialReader.value;
+        
+        pole.transform.SetPositionAndRotation(pole.spawnLocation.position, pole.spawnLocation.rotation);
         pole.transform.localScale = new Vector3(0.05f, poleLength, 0.05f);
-        Interactable interactable = pole.AddComponent<Interactable>() as Interactable;
-        interactable.interactionType = Interactable.InteractionType.grab;
-        Rigidbody rigidbody = pole.AddComponent<Rigidbody>() as Rigidbody;
-        rigidbody.isKinematic = true;
-        rigidbody.useGravity = false;
-        CapsuleCollider collider = pole.GetComponent<CapsuleCollider>();
-        collider.isTrigger = true;
+        pole.GetComponent<MeshRenderer>().enabled = true;
         Debug.Log("POLE CREATED!");
     }
 }
