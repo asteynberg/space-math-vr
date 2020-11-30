@@ -48,6 +48,7 @@ public class GrabManager : MonoBehaviour
             Grabber grabber = grabbers[grabberNumber];
             for (int objectIndex = 0; objectIndex < grabInfo.turning.Count; objectIndex++)
             {
+                // turn the object accordingly
                 Interactable interactable = grabInfo.turning[objectIndex];
                 float turningZero = grabInfo.turningZeros[objectIndex];
                 Transform interactionTarget = interactable.interactionTarget;
@@ -56,18 +57,6 @@ public class GrabManager : MonoBehaviour
                 interactionTarget.eulerAngles = new Vector3(rotation.x, targetY, rotation.z);
             }
         }
-        // do all of the turning
-        //Vector3 rotation = turnable[i].transform.eulerAngles;
-        //Debug.Log("Rotation:");
-        //Debug.Log(rotation);
-        //float targetY = gameObject.transform.eulerAngles.y - turnableZeros[i];
-        //Debug.Log("Controller y:");
-        //Debug.Log(gameObject.transform.rotation.y);
-        //Debug.Log("The zero:");
-        //Debug.Log(turnableZeros[i]);
-        //Debug.Log("The result:");
-        //Debug.Log(targetY);
-        //turnable[i].transform.eulerAngles = new Vector3(rotation.x, targetY, rotation.z);
     }
 
     // removes control from the grabber (does not put object into hovering)
@@ -89,6 +78,17 @@ public class GrabManager : MonoBehaviour
             grabInfo.turningZeros.RemoveAt(turningIndex);
         }
         controllers.Remove(interactable);
+    }
+
+    public void disableInteraction(Interactable interactable)
+    {
+        for (int grabberNumber = 0; grabberNumber < grabbers.Count; grabberNumber++)
+        {
+            removeControl(grabberNumber, interactable);
+            data[grabberNumber].hovering.Remove(interactable);
+        }
+        // make it so it can no longer interact
+        Destroy(interactable);
     }
 
     public void processTriggerEnter(int grabberNumber, Interactable grabbed)
@@ -118,8 +118,9 @@ public class GrabManager : MonoBehaviour
             Debug.Log("Grabbed an object!");
             if (thing.interactionType == Interactable.InteractionType.trigger)
             {
-                Debug.Log("Triggered the clickable object");
+                Debug.Log("Triggering the clickable object");
                 EventManager.TriggerEvent(thing.triggerEventName);
+                Debug.Log("The triggered event was called: " + thing.triggerEventName);
             } else
             {
                 // only control it if it's not a trigger

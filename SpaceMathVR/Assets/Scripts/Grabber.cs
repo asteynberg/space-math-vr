@@ -70,22 +70,30 @@ public class Grabber : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Debug #1");
         Interactable interactable = other.gameObject.GetComponent<Interactable>();
+        Debug.Log("Debug #2");
         if (interactable)
         {
+            Debug.Log("Debug #3");
             grabManager.processTriggerEnter(grabberNumber, interactable);
             Debug.Log("Triggered enter!");
         }
+        Debug.Log("Debug #4");
     }
 
     private void OnTriggerExit(Collider other)
     {
+        Debug.Log("Debug #5");
         Interactable interactable = other.gameObject.GetComponent<Interactable>();
+        Debug.Log("Debug #6");
         if (interactable)
         {
+            Debug.Log("Debug #7");
             grabManager.processTriggerExit(grabberNumber, interactable);
             Debug.Log("Triggered exit!");
         }
+        Debug.Log("Debug #8");
     }
 
     private bool checkTrigger()

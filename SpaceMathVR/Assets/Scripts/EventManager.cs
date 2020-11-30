@@ -5,7 +5,13 @@ using System.Collections.Generic;
 
 public class EventManager : MonoBehaviour
 {
-    public enum EventName {none, makePoleButtonClicked, victory};
+    private UnityAction challengeAction, victoryAction, endAction;
+
+    public enum PhaseName {intro, challenge, victory, end};
+
+    public PhaseName phase = PhaseName.intro;
+
+    public enum EventName {none, mainButtonClick, challenge, victory, end};
 
     private Dictionary<EventName, UnityEvent> eventDictionary;
 
@@ -39,6 +45,44 @@ public class EventManager : MonoBehaviour
         {
             eventDictionary = new Dictionary<EventName, UnityEvent>();
         }
+    }
+
+    void Awake()
+    {
+        challengeAction = new UnityAction(challengePhaseChanger);
+        victoryAction = new UnityAction(victoryPhaseChanger);
+        endAction = new UnityAction(endPhaseChanger);
+    }
+
+    void OnEnable()
+    {
+        EventManager.StartListening(EventManager.EventName.challenge, challengeAction);
+        EventManager.StartListening(EventManager.EventName.victory, victoryAction);
+        EventManager.StartListening(EventManager.EventName.end, endAction);
+    }
+
+    void OnDisable()
+    {
+        EventManager.StopListening(EventManager.EventName.challenge, challengeAction);
+        EventManager.StopListening(EventManager.EventName.victory, victoryAction);
+        EventManager.StopListening(EventManager.EventName.end, endAction);
+    }
+
+    private void challengePhaseChanger()
+    {
+        Debug.Log("Challenge phase triggered");
+        phase = PhaseName.challenge;
+    }
+    private void victoryPhaseChanger()
+    {
+        Debug.Log("Victory phase triggered");
+        phase = PhaseName.victory;
+    }
+
+    private void endPhaseChanger()
+    {
+        Debug.Log("End phase triggered");
+        phase = PhaseName.end;
     }
 
     public static void StartListening(EventName eventName, UnityAction listener)
