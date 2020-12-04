@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Nov 30 15:18:55 HST 2020
+#Thu Dec 03 23:09:34 HST 2020
 60.set=ASSET
 52.set=ASSET
 53.base=E\:\\Unity\\althea-space-math-vr\\SpaceMathVR\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\mergeJniLibs\\release\\0
@@ -79,7 +79,7 @@
 12.base=E\:\\Unity\\althea-space-math-vr\\SpaceMathVR\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
 2.path=classes.dex
 46.path=bin/Data/Managed/System.Runtime.Serialization.dll
-93.path=bin/Data/Managed/Assembly-CSharp.dll
+93.path=bin/Data/Managed/System.Runtime.Serialization.Xml.dll
 9.path=bin/Data/Managed/UnityEngine.AnimationModule.dll
 74.baseType=DIRECTORY
 105.base=E\:\\Unity\\althea-space-math-vr\\SpaceMathVR\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
@@ -141,7 +141,7 @@
 11.base=E\:\\Unity\\althea-space-math-vr\\SpaceMathVR\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
 1.path=bin/Data/Managed/UnityEngine.ProfilerModule.dll
 45.path=bin/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
-92.path=bin/Data/Managed/System.Runtime.Serialization.Xml.dll
+92.path=bin/Data/Managed/Assembly-CSharp.dll
 76.baseType=DIRECTORY
 8.path=bin/Data/data.unity3d
 36.baseType=DIRECTORY
