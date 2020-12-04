@@ -11,7 +11,7 @@ public class EventManager : MonoBehaviour
 
     public PhaseName phase = PhaseName.intro;
 
-    public enum EventName {none, mainButtonClick, challenge, victory, end};
+    public enum EventName {none, mainButtonClick, dialClick, challenge, victory, end};
 
     private Dictionary<EventName, UnityEvent> eventDictionary;
 

@@ -11,6 +11,13 @@ public class DialReader : MonoBehaviour
     public float maxiumumValue = 50;
     public bool round;
     public float value;
+    private float prevValue;
+
+    private void Start()
+    {
+        value = 0;
+        prevValue = 0;
+    }
 
     // Update is called once per frame
     void Update()
@@ -29,5 +36,11 @@ public class DialReader : MonoBehaviour
             value = Mathf.Round(value);
         }
         gameObject.GetComponent<TextMesh>().text = value.ToString();
+        if (value != prevValue)
+        {
+            Debug.Log("Triggering dialClick");
+            EventManager.TriggerEvent(EventManager.EventName.dialClick);
+        }
+        prevValue = value;
     }
 }

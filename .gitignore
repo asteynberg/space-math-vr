@@ -58,7 +58,8 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
+# We want our apks
+# *.apk
 *.aab
 *.unitypackage
 
