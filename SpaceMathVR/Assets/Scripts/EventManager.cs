@@ -11,7 +11,7 @@ public class EventManager : MonoBehaviour
 
     public PhaseName phase = PhaseName.intro;
 
-    public enum EventName {none, mainButtonClick, dialClick, challenge, victory, end};
+    public enum EventName {none, start, mainButtonClick, dialClick, challenge, victory, failure, end, afterEnd};
 
     private Dictionary<EventName, UnityEvent> eventDictionary;
 
@@ -52,6 +52,11 @@ public class EventManager : MonoBehaviour
         challengeAction = new UnityAction(challengePhaseChanger);
         victoryAction = new UnityAction(victoryPhaseChanger);
         endAction = new UnityAction(endPhaseChanger);
+    }
+
+    private void Start()
+    {
+        TriggerEvent(EventName.start);
     }
 
     void OnEnable()
@@ -115,6 +120,7 @@ public class EventManager : MonoBehaviour
         UnityEvent thisEvent = null;
         if (instance.eventDictionary.TryGetValue(eventName, out thisEvent))
         {
+            Debug.Log("Triggered event: " + eventName);
             thisEvent.Invoke();
         }
     }

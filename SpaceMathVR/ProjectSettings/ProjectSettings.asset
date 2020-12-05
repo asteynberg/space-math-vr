@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: ADLVR
   productName: SpaceMathVR
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -127,8 +127,6 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 102900000, guid: 42cbe898b07ea3842a2c052338e1a4c2, type: 3}
-  - {fileID: -7236317224816419133, guid: a981e85ed159cfd41a87ac2269808205, type: 2}
-  - {fileID: 11400000, guid: 716bd030a1ac48c46a2c35c89d796df8, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -265,7 +263,14 @@ PlayerSettings:
   androidGamepadSupportLevel: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 796936cf2733a0a41b7b628b2715590a, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: Android
     m_Icons:

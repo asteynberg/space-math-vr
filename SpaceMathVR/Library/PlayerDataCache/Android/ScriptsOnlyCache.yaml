@@ -9,8 +9,8 @@ ScriptsOnlyBuild:
     - Interactable
     - MainButton
     - ONSPSettings
+    - PlaySoundOnTrigger
     - Pole
-    - SimpleSound
     - TextChanger
     - TriggerVictory
     Oculus.VR.Editor.dll:
@@ -71,39 +71,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11612}
+      Script: {instanceID: 11456}
     - Class: 114
-      Script: {instanceID: 11764}
+      Script: {instanceID: 11494}
     - Class: 114
-      Script: {instanceID: 12068}
+      Script: {instanceID: 11646}
     - Class: 114
-      Script: {instanceID: 12334}
+      Script: {instanceID: 11950}
     - Class: 114
-      Script: {instanceID: 12388}
+      Script: {instanceID: 12216}
     - Class: 114
-      Script: {instanceID: 12594}
+      Script: {instanceID: 12270}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 12476}
     - Class: 114
-      Script: {instanceID: 13200}
+      Script: {instanceID: 12856}
     - Class: 114
-      Script: {instanceID: 13228}
+      Script: {instanceID: 13082}
     - Class: 114
-      Script: {instanceID: 13540}
+      Script: {instanceID: 13422}
     - Class: 114
-      Script: {instanceID: 13896}
+      Script: {instanceID: 13778}
     - Class: 114
-      Script: {instanceID: 13972}
+      Script: {instanceID: 13854}
     - Class: 114
-      Script: {instanceID: 13990}
+      Script: {instanceID: 13872}
     - Class: 114
-      Script: {instanceID: 13996}
+      Script: {instanceID: 13878}
     - Class: 114
-      Script: {instanceID: 14002}
+      Script: {instanceID: 13884}
     - Class: 114
-      Script: {instanceID: 14186}
+      Script: {instanceID: 14068}
     - Class: 114
-      Script: {instanceID: 14216}
+      Script: {instanceID: 14098}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -171,6 +171,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 35e4a79060b942409f412ccfc3f66a75
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlaySoundOnTrigger
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -1511,7 +1517,7 @@ ScriptsOnlyBuild:
     className: TrainLocomotive
   - hash:
       serializedVersion: 2
-      Hash: 62da6df1173be2c4b5fdeff160bb1cc8
+      Hash: cfea703fc220919b5bf1541537859772
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TriggerVictory
@@ -1710,5 +1716,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Cool Scene.unity
-  playerPath: E:/Unity/althea-space-math-vr/SpaceMathVR/Builds/V30 - first audio
-    build.apk
+  playerPath: E:/Unity/althea-space-math-vr/SpaceMathVR/Builds/SpaceMathVR.apk

@@ -52,6 +52,9 @@ public class MainButton : MonoBehaviour
         {
             Debug.Log("Button ProcessClick victory");
             EventManager.TriggerEvent(EventManager.EventName.end);
+        } else if (eventManager.phase == EventManager.PhaseName.end)
+        {
+            EventManager.TriggerEvent(EventManager.EventName.afterEnd);
         }
     }
 }

@@ -261,13 +261,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 44380656}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ad1b1295b457244a9d669aca0f07130, type: 3}
+  m_Script: {fileID: 11500000, guid: 27dbaf40542c2204e83d3700d9e66e7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 44380661}
-  startEvent: 2
-  endEvent: 1
---- !u!82 &44380661
+  audioSource: {fileID: 44380662}
+  audioClip: {fileID: 8300000, guid: 212d22a5f3d1c5e44bd77b5fe053b260, type: 3}
+  eventName: 5
+--- !u!114 &44380661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44380656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27dbaf40542c2204e83d3700d9e66e7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 44380662}
+  audioClip: {fileID: 8300000, guid: 670e5f6530323a643925c8d209ce101a, type: 3}
+  eventName: 1
+--- !u!82 &44380662
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -277,7 +292,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b06011f2ea4c1f5429285bb045b30714, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -287,7 +302,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 100
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -323,7 +338,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -363,6 +378,66 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &44380663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44380656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27dbaf40542c2204e83d3700d9e66e7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 44380662}
+  audioClip: {fileID: 8300000, guid: 1f8d2c251d4285e42909ad957aa4393d, type: 3}
+  eventName: 6
+--- !u!114 &44380664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44380656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27dbaf40542c2204e83d3700d9e66e7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 44380662}
+  audioClip: {fileID: 8300000, guid: 212d22a5f3d1c5e44bd77b5fe053b260, type: 3}
+  eventName: 7
+--- !u!114 &44380665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44380656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27dbaf40542c2204e83d3700d9e66e7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 44380662}
+  audioClip: {fileID: 8300000, guid: 212d22a5f3d1c5e44bd77b5fe053b260, type: 3}
+  eventName: 8
+--- !u!114 &44380666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44380656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27dbaf40542c2204e83d3700d9e66e7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 44380662}
+  audioClip: {fileID: 8300000, guid: ce641fdeb465fc84dbde9096179d44d6, type: 3}
+  eventName: 4
 --- !u!1 &85279320
 GameObject:
   m_ObjectHideFlags: 0
@@ -2036,7 +2111,7 @@ MonoBehaviour:
   interactionTarget: {fileID: 0}
   originalParent: {fileID: 0}
   interactionType: 2
-  triggerEventName: 1
+  triggerEventName: 2
 --- !u!54 &650938058
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4259,7 +4334,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a9075c0ad3dc454bb3389bb67e201e8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a9075c0ad3dc454bb3389bb67e201e8,
         type: 3}
@@ -5141,7 +5216,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e83eba4e0ff4b647b111db954c7018b, type: 2}
+  - {fileID: 2100000, guid: c55b04e9f53b2c5479f1bc8bc9464cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5199,9 +5274,11 @@ MonoBehaviour:
   eventManager: {fileID: 478817575}
   grabManager: {fileID: 478817577}
   pole: {fileID: 160469436}
-  distanceThreshold: 0.4
+  distanceThreshold: 0.45
   goalLength: 13
   green: {fileID: 2100000, guid: 93af016079002db41aeda67e2101a40e, type: 2}
+  red: {fileID: 2100000, guid: 5e83eba4e0ff4b647b111db954c7018b, type: 2}
+  transparentBlue: {fileID: 2100000, guid: 6df0d02b06d846547b01c9c788bba44c, type: 2}
 --- !u!1 &1880329705
 GameObject:
   m_ObjectHideFlags: 0
@@ -5594,7 +5671,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 708e58441e9737d4da18ed7d53197a50,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 708e58441e9737d4da18ed7d53197a50,
         type: 3}
